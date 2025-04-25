@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class temp {
+private:
+	int a;
+	friend istream& operator >>(istream& inn, temp& o);\\not possible without friend function because the written function will define these functions for the iostream class itself and not for our class
+	friend ostream& operator <<(ostream& out, temp& o);\\used addresses here because we dont want to create copies, we want to make changes in original object
+};
+istream& operator >>(istream& inn, temp& o) {
+	inn >> o.a;
+	return inn;
+}
+ostream& operator <<(ostream& out, temp& o) {
+	out << o.a;
+	return out;
+}
+
+int main(){
+	temp t;
+	cin >> t;//operator.>>(istream& inn,temp& o)
+	cout << t;
+	return 0;
+}

@@ -1,0 +1,31 @@
+// statictry.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+using namespace std;
+
+struct tryy{
+	static int count;//not an instance variable,called structure variable
+	float amount;//instance variable
+	tryy();
+};
+tryy::tryy()
+{
+	cout<<"hello";
+}
+int tryy::count=0;
+int main()
+{tryy t;
+	t.amount=4.5;
+	t.count=3;
+	tryy t2;
+	cout<<t2.count;
+	t2.count=4;
+	cout<<t.count;//through instance
+	cout<<tryy::count;//direct method
+	_getch();
+	return 0;
+}
+

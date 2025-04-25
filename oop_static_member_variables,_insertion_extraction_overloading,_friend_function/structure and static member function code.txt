@@ -1,0 +1,48 @@
+// classstructcompare.cpp : Defines the entry point for the console application.
+//static member variable,static member function
+
+#include "stdafx.h"
+#include "iostream"
+#include "conio.h"
+using namespace std;
+struct tryy{
+private:
+	static int count;//static member;
+	float amount;//instance member
+public:
+	void setamount(float f){
+		amount=f;
+		}
+	static void setcount(int a)
+	{
+		count=a;
+		cout<<count;
+		
+	}
+
+	 void show()
+	 {
+		 cout<<"amount is:"<<amount;
+		 cout<<count;
+	 }
+
+};
+int tryy::count;
+
+int main()
+{
+
+	//tryy t;
+	//t.amount=4.5;//not possible
+	
+	//t.setamount(4.5);
+	tryy::setcount(33);
+	//t.show();
+	//tryy t2;
+	//t2.show();
+	//t.count;//error private member
+	
+	_getch();
+	return 0;
+}
+
