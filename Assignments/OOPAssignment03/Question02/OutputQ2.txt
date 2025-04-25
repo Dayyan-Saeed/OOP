@@ -1,0 +1,30 @@
+Name: Altaf     Age: 55
+Designation: Professor  Salary: 350000
+Name: Bilal     Age: 50
+Designation: Associate Professor        Salary: 300000
+Name: Chaker    Age: 45
+Designation: Associate Professor        Salary: 250000
+Name: Dilawar   Age: 40
+Designation: Assistant Professor        Salary: 225000
+Name: Ehsaan    Age: 35
+Designation: Lecturer   Salary: 170000
+Name: Altaf     Age: 55
+Designation: Professor  Salary: 350000
+Name: Bilal     Age: 50
+Designation: Ossociate Professor        Salary: 300000
+Name: Chaker    Age: 45
+Designation: Associate Professor        Salary: 250000
+Name: Chaker    Age: 45
+Designation: Associate Professor        Salary: 250000
+Name: Ehsaan    Age: 35
+Designation: Lecturer   Salary: 170000
+Name: Altaf     Age: 55
+Name: Chaker    Age: 45
+Name: Ehsaan    Age: 35
+Name: Alif      Age: 25
+Name: Bay       Age: 24
+Name: Bilal     Age: 50
+Designation: Ossociate Professor        Salary: 300000
+Name: Chaker    Age: 45
+Designation: Associate Professor        Salary: 250000
+Name: Pay       Age: 23

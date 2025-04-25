@@ -1,0 +1,17 @@
+Name: Puppy
+Name: Crazy
+Breed: German Shepherd
+
+*** Calling the function callPrint ***
+Name: Puppy
+Name: Crazy
+Breed: German Shepherd
+
+*** Calling the function callPrintPtr ***
+Name: Puppy
+Name: Crazy
+Breed: German Shepherd
+
+*** Calling the function callPrintObj ***
+Name: Puppy
+Name: Crazy
